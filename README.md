@@ -2,6 +2,25 @@
 Welcome to the Angry Bean game! Where you are a little cute angry bean fighting the crusher to save all other beans beyond the mountains. Shoot the crusher before it shoots you dead or crushing you. But also be careful! The battlefield is a dangerous place. Stay away from the root fires.
 
 ## How-To-Play
+### To-Install
+[Mac] Clone the project. Navigate to AngryBean folder and open a terminal. If you have Python3 installed, copy and paste the following command:
+```
+python3 -m http.server
+```
+Open a web browser and enter the following URL:
+```
+http://localhost:8000/index.html
+```
+[Windows] Clone the project. Open a command prompt and navigate to the AngryBean folder. Run the following command:
+```
+python -m http.server 8080
+```
+Open a web browser and enter the following URL:
+```
+http://localhost:8080
+```
+
+### Game-Controls
 Use WADS keys to move forward, left, right and backwards. Hold left shift key while moving to run.<br />
 Space key makes you jump.<br />
 Moving the mouse helps you looking around the field. To aim, keep holding the right mouse button and use left mouse button to shoot.<br />
